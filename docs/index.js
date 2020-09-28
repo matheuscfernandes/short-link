@@ -114,7 +114,7 @@ let shorturl = () => {
     let cre = /^([a-zA-Z0-9 _-]+)$/;
     let protocol_ok = re.test(longurl);
     if (!protocol_ok) {
-        document.getElementById("erbox").style.color = "red";
+        document.getElementById("erbox").style.color = "yellow";
         document.getElementById("erbox").innerHTML = "❌ Invalid URL";
     } else {
         document.getElementById("erbox").innerHTML = "";
