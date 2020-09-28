@@ -130,13 +130,13 @@ let shorturl = () => {
                     genhash();
                     send_request(longurl);
                 } else {
-                    document.getElementById("erbox").style.color = "red";
+                    document.getElementById("erbox").style.color = "yellow";
                     document.getElementById("erbox").innerHTML = "❌ Custom Address Already Used, Choose Another";
                     document.getElementById("custominput").placeholder = document.getElementById("custominput").value;
                     document.getElementById("custominput").value = "";
                 }
             } else {
-                document.getElementById("erbox").style.color = "red";
+                document.getElementById("erbox").style.color = "yellow";
                 document.getElementById("erbox").innerHTML = "Invalid Custom URL! Use only Alphanumerics and underscore!";
                 document.getElementById("custominput").placeholder = document.getElementById("custominput").value;
                 document.getElementById("custominput").value = "";
