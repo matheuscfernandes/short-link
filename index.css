@@ -12,19 +12,20 @@ body {
 
 h1,
 .h1 {
-    color: #102E87;
+    color: #cc0000;
     font-family: monospace;
     font-size: 2rem;
+    vertical-align: middle;
 
 }
 
 .h1 a {
-    color: #102E87;
+    color: #cc0000;
     text-decoration: none
 }
 
 .h1 a:visited {
-    color: #102E87;
+    color: #cc0000;
     text-decoration: none
 }
 
@@ -40,7 +41,7 @@ form,
 .form {
     margin-bottom: 10px;
     padding: 15px;
-    background-color: #1337a5;
+    background-color: #a51313;
     border: 1px solid #d6d6d6;
     box-shadow: 3px 3px 0px #bababa;
     display: inline-block;
@@ -52,12 +53,13 @@ form,
 .main {
     margin-bottom: 25px;
     padding: 0px 10px 5px 10px;
-    margin: 8px auto 8px;
-    border: 2px solid #0e2877;
-    box-shadow: 5px 6px 0px #0e2877;
+    margin: 50px auto 50px auto;
+    border: 2px solid #770e0e;
+    box-shadow: 5px 6px 0px #770e0e;
     width: 95%;
     max-width: 600px;
     border-radius: 16px;
+
 }
 
 input {
@@ -67,7 +69,6 @@ input {
     width: 100%;
     border: none;
     border-radius: 16px;
-    ;
     font-size: 16px;
 }
 
