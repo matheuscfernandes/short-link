@@ -154,13 +154,6 @@ document.getElementById("sbtn").addEventListener("click", shorturl);
 
 console.log(`
 
-███████╗ ██████╗ ███████╗███████╗██╗   ██╗██████╗ ██╗     
-██╔════╝██╔═══██╗██╔════╝██╔════╝██║   ██║██╔══██╗██║     
-█████╗  ██║   ██║███████╗███████╗██║   ██║██████╔╝██║     
-██╔══╝  ██║   ██║╚════██║╚════██║██║   ██║██╔══██╗██║     
-██║     ╚██████╔╝███████║███████║╚██████╔╝██║  ██║███████╗
-╚═╝      ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
-                                                                                                                               
-PLEASE DON'T TYPE ANYTHING BELLOW UNLESS YOU ARE A DEVELOPER!
+Matheus C. Fernandes Adapted from FOSSURL
 
 `)
