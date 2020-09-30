@@ -107,7 +107,7 @@ let send_request = (url) => {
 
     document.getElementById('shortenedURL').value = "http://fer.me/l/"+window.location.hash.substr(1)//window.location.href;
     // document.getElementById('shortenedURL').value = window.location.href;
-    document.getElementById('sucess').innerHTML = "Short URL Copied to Clipboard!";
+    document.getElementById('sucess').innerHTML = "Short URL Copied to Clipboard! ✔️";
     copyer("shortenedURL");
 };
 

@@ -86,7 +86,7 @@ button {
 }
 
 button:hover {
-    background-color: cyan;
+    background-color: rgb(189, 189, 189);
     color: black;
 }
 
