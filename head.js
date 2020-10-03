@@ -15,10 +15,19 @@ function isURL(a) {
         return false;
     }
 }
+
+function wait(ms){
+    var start = new Date().getTime();
+    var end = start;
+    while(end < start + ms) {
+      end = new Date().getTime();
+   }
+ }
 var hashh = window.location.hash.substr(1);
 if (window.location.hash != "") {
     var res = JSON.parse(fetchJSON(endpoint + "/?q=s:" + hashh))[0];
     var data = res["l"];
+    wait(500);  //0.5 seconds in milliseconds
     console.log(data);
     if (data != null) {
         if (isURL(data)) {
