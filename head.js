@@ -26,10 +26,10 @@ function wait(ms){
 var hashh = window.location.hash.substr(1);
 // wait(250);  //0.25 seconds in milliseconds
 if (window.location.hash != "") {
-    wait(500);  //0.25 seconds in milliseconds
+    wait(500);  //0.5 seconds in milliseconds
     var res = JSON.parse(fetchJSON(endpoint + "/?q=s:" + hashh))[0];
     var data = res["l"];
-    wait(250);  //0.5 seconds in milliseconds
+    wait(250);  //0.25 seconds in milliseconds
     console.log(data);
     if (data != null) {
         if (isURL(data)) {
