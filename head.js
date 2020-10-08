@@ -31,7 +31,7 @@ if (window.location.hash != "") {
     wait(250);  //0.25 seconds in milliseconds
     var data = res["l"];
     console.log(data);
-    wait(250);  //0.25 seconds in milliseconds
+    // wait(250);  //0.25 seconds in milliseconds
     if (data != null) {
         if (isURL(data)) {
             window.location.href = data;
