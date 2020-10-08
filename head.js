@@ -28,8 +28,8 @@ var hashh = window.location.hash.substr(1);
 if (window.location.hash != "") {
     wait(250);  //0.25 seconds in milliseconds
     var res = JSON.parse(fetchJSON(endpoint + "/?q=s:" + hashh))[0];
-    var data = res["l"];
     wait(250);  //0.25 seconds in milliseconds
+    var data = res["l"];
     console.log(data);
     wait(250);  //0.25 seconds in milliseconds
     if (data != null) {
