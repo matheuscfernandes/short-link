@@ -115,8 +115,7 @@ let send_request = (url) => {
 let shorturl = () => {
     let longurl = geturl();
     let re = /((([A-Za-z]{3,9}:(?:\/\/)?)(?:[\-;:&=\+\$,\w]+@)?[A-Za-z0-9\.\-]+|(?:www\.|[\-;:&=\+\$,\w]+@)[A-Za-z0-9\.\-]+)((?:\/[\+~%\/\.\w\-_]*)?\??(?:[\-\+=&;%@\.\w_]*)#?(?:[\.\!\/\\\w]*))?)/;
-    // let cre = /^([a-zA-Z0-9 _-]+)$/; //original
-    let cre = /^([a-zA-Z0-9& _-]+)$/; //new with +&
+    let cre = /^([a-zA-Z0-9 _-]+)$/;
 
     let protocol_ok = re.test(longurl);
     if (!protocol_ok) {
