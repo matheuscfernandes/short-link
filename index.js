@@ -62,6 +62,7 @@ let genhash = () => {
 let check_is_unique = () => {
     let url = window.location.hash.substr(1);
     let res = JSON.parse(fetchJSON(endpoint + '/?q=s:' + url))[0];
+    wait(500); //0.5 seconds in milliseconds
     let data = res;
 
     if (data != null) {
