@@ -23,7 +23,7 @@ function wait(ms){
       end = new Date().getTime();
    }
  }
- wait(250);  //0.25 seconds in milliseconds
+wait(250);  //0.25 seconds in milliseconds
 var hashh = window.location.hash.substr(1);
 if (window.location.hash != "") {
     // wait(250);  //0.25 seconds in milliseconds
