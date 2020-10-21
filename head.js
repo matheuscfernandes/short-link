@@ -40,6 +40,11 @@ if (window.location.hash != "") {
         wait(1000);  //1 second in milliseconds
         var res = JSON.parse(fetchJSON(endpoint + "/?q=s:" + hashh))[0];
     }
+    //Opportunity 3
+    if (res == null) {
+        wait(4000);  //4 second in milliseconds
+        var res = JSON.parse(fetchJSON(endpoint + "/?q=s:" + hashh))[0];
+    }
     // ---- FIX BY MATT END -----///
 
     var data = res["l"];
